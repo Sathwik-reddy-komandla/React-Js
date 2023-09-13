@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background:black;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.container{
+    font-size:6rem;
+    text-align: center;
+}
+
+.btns-container{
+    width:40rem;
+    display:flex;
+    justify-content: space-around;
+    margin-top:5rem;
+}
+
+.increment{
+    padding:10px 20px;
+    border-radius: 100px;
+    font-size:2rem;
+    background:#141517;
+    color:white;
+    cursor: pointer;
+}
+
+.increment:hover{
+    background-color: white;
+    color:black;
+}
